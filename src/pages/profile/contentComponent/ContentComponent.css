@@ -1,0 +1,64 @@
+/* Hilangkan border bawaan tab */
+.nav-tabs .nav-link {
+  border: none !important;
+  /* border-bottom: 3px solid transparent !important; */
+}
+
+/* Border bottom berwarna kuning pada tab yang aktif */
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid #EDA415 !important;
+  color: #EDA415 !important;
+}
+.nav-tabs .nav-link {
+  color: #8D98AA !important;
+  border-bottom: 3px solid #dee2e6 !important;
+}
+
+.tab-content{
+  border: none;
+}
+
+.nav-tabs{
+  border-bottom: none !important;
+}
+
+/* menu upload */
+/* .upload-container {
+  text-align: center;
+} */
+
+.upload-input {
+  display: none;
+}
+
+.upload-label {
+  display: inline-block;
+  padding: 20px;
+  border: 2px dashed #2a5369;
+  border-radius: 40px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.upload-label:hover {
+  background-color: #e6e9ec;
+}
+
+.icon img {
+  width: 40px; /* Ukuran ikon kamera */
+  height: auto;
+}
+
+.upload-label p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: #2a5369;
+  font-family: Arial, sans-serif;
+}
+
+.inputan-gen-active{
+  border: 1px solid #666E73 !important;
+  padding: 15px !important;
+  border-radius: 10px !important;
+}
